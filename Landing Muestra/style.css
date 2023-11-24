@@ -1,0 +1,99 @@
+@font-face {
+    font-family: AlreadyBroken;
+    src: url(Fuentes/Already-Broken-Scratch-Demo-Version.ttf) format(truetype);
+}
+
+a {
+    color: #FDF430;
+   }
+
+a:hover {
+    text-decoration: line-through;
+    color: white;
+   }
+
+a {
+    text-decoration-color: rgba(255, 0, 255, 0);
+   }
+
+body {
+    margin: 0;
+}
+
+.PAG01 {
+    background-color: black;
+    width: 100%;
+    height: 975px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo01 {
+    background: url(Imagenes/Fondo01.png);
+    background-position: center;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+    height: 98%;
+}
+
+.texto {
+    color: #FDF430;
+    font-family: AlreadyBroken;
+    font-size: 70px;
+    line-height: 10px;
+    text-align: end;
+    justify-content: end;
+}
+.PAG02 {
+    width: 100%;
+    height: 768px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(Imagenes/Seccion-01.png) no-repeat;
+}
+.PAG03 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 768px;
+    background-position: center;
+    background-size: cover;
+    background: url(Imagenes/Seccion-02.png) no-repeat;
+}
+
+.PAG04 {
+    width: 100%;
+    height: 768px;
+    background-position: center;
+    background-size: cover;
+    background: url(Imagenes/Landing\ Info-02.png) no-repeat;
+}
+
+.PAG05 {
+    width: 100%;
+    height: 768px;
+    background-position: center;
+    background-size: cover;
+    background: url(Imagenes/Landing\ Info-03.png) no-repeat;
+}
+
+.PAG06 {
+    width: 100%;
+    height: 768px;
+    background-position: center;
+    background-size: cover;
+    background: url(Imagenes/Landing\ Info-04.png) no-repeat;
+}
+
+.PAG07 {
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background: url(Imagenes/Pie-03.png) no-repeat;
+}
